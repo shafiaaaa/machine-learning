@@ -48,5 +48,5 @@ while True:
     cv2.imshow("Image", img)
     key = cv2.waitKey(1)
     if key == ord("s"):
-        cv2.imwrite(f'{folder}/Image_{time.time()}.jpg', imgWhite)
+        cv2.imwrite(f'dataset/Image_{time.time()}.jpg', imgWhite)
         print(counter)
