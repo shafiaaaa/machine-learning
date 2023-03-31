@@ -4,13 +4,13 @@ import numpy as np
 import math
 import time
 
-cap = cv2.VideoCapture(0)    #bukak cam || 0 = id number of camera
+cap = cv2.VideoCapture(0)    #open camera || 0 = id number of camera
 detector = HandDetector(maxHands=1)  #detect one hand
 
 offset = 20
 imgSize = 300
 
-folder = "dataset/C"        #folder utk save dataset
+folder = "dataset/C"        #folder to save dataset
 counter = 0
 
 while True:
